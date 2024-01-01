@@ -61,7 +61,7 @@ document.querySelector(".again").addEventListener("click", function () {
   document.querySelector(".guess").value = "";
   document.querySelector(".number").textContent = "?";
   document.querySelector(".number").style.width = "15rem";
-  document.querySelector("body").style.backgroundColor = "#222";
+  document.querySelector("body").style.backgroundColor = "#003367";
   document.querySelector(".score").textContent = score;
   document.querySelector(".check").disabled = false;
   document.querySelector(".guess").disabled = false;
